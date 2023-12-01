@@ -13,6 +13,9 @@
         android:theme="@style/Theme.I200547_i202433_Project"
         tools:targetApi="26">
         <activity
+            android:name=".MainActivity4_SignUp"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity3_ForgotPassword"
             android:exported="false" />
         <activity
