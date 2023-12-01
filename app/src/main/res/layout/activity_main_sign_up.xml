@@ -250,6 +250,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="15dp"
+        android:clickable="true"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="10dp"/>
 
@@ -260,6 +261,7 @@
         android:src="@drawable/icons8_facebook"
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/c21"
+        android:clickable="true"
         android:layout_marginBottom="10dp"/>
 
     <ImageView
@@ -269,6 +271,7 @@
         android:src="@drawable/icons8_google"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@id/c21"
+        android:clickable="true"
         android:layout_marginBottom="10dp"/>
 
     <ProgressBar
@@ -276,5 +279,17 @@
         android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/c24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/transparent"
+        android:contentDescription="Button to go back"
+        android:src="@drawable/img" />
 
 </RelativeLayout>

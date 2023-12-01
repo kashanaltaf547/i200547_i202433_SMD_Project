@@ -61,11 +61,11 @@ public class MainActivity2_SignIn extends AppCompatActivity {
                 password = String.valueOf(pass.getText());
 
                 if(TextUtils.isEmpty(email)){
-                    Toast.makeText(MainActivity2_SignIn.this, "Enter Name", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity2_SignIn.this, "Enter Email", Toast.LENGTH_LONG).show();
                     return;
                 }
                 if(TextUtils.isEmpty(password)){
-                    Toast.makeText(MainActivity2_SignIn.this, "Enter Email", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity2_SignIn.this, "Enter Password", Toast.LENGTH_LONG).show();
                     return;
                 }
 
