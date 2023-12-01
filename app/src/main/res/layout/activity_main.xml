@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/m1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <RelativeLayout
+                android:id="@+id/m2"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/m3"
+                    android:background="@drawable/shape1"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:id="@+id/m4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-80dp"
+                    android:layout_marginTop="-400dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginBottom="400dp"
+                    android:background="@drawable/ellipse_1" />
+
+                <TextView
+                    android:id="@+id/m5"
+                    android:textSize="55sp"
+                    android:textColor="#F70A0A"
+                    android:layout_marginLeft="86dp"
+                    android:layout_marginTop="361dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MedTrack" />
+
+                <ImageView
+                    android:id="@+id/m6"
+                    android:src="@drawable/vector5"
+                    android:contentDescription="vector_5"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="136dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/m7"
+                    android:src="@drawable/vector7"
+                    android:contentDescription="vector_7"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="191dp"
+                    android:layout_width="430dp"
+                    android:layout_height="170dp" />
+
+                <ImageView
+                    android:id="@+id/m8"
+                    android:src="@drawable/vector6"
+                    android:contentDescription="vector_6"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="164dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/m9"
+                    android:src="@drawable/vector8"
+                    android:contentDescription="vector_4"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/m10"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="-86dp"
+                    android:contentDescription="vector_3"
+                    android:src="@drawable/vector9" />
+
+                <ImageView
+                    android:id="@+id/m11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-72dp"
+                    android:layout_marginTop="80dp"
+                    android:contentDescription="vector_2"
+                    android:src="@drawable/vector10" />
+
+                <View
+                    android:id="@+id/m12"
+                    android:background="@drawable/ellipse_1"
+                    android:layout_marginStart="-43dp"
+                    android:layout_marginTop="-234dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+
+                <TextView
+                    android:id="@+id/m13"
+                    android:textStyle="italic"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="485dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="
+            Your Health Hero!\n
+Effortlessly manage medications\n
+            for a healthier you." />
+
+                <ImageView
+                    android:id="@+id/m14"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="90dp"
+                    android:background="#00FF0000"
+                    android:contentDescription="ellipse_2"
+                    android:src="@drawable/ellipse_2" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
