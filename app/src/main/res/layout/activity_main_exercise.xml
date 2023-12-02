@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7_Exercise">
+
+
+    <ImageView
+        android:id="@+id/zz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-15dp"
+        android:src="@drawable/vector1"/>
+
+    <ImageView
+        android:id="@+id/zz2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/vector2"
+        android:layout_alignParentBottom="true" />
+
+
+    <ImageView
+        android:id="@+id/zz3"
+        android:layout_width="314dp"
+        android:layout_height="316dp"
+        android:layout_below="@id/zz1"
+        android:layout_marginLeft="-45dp"
+        android:backgroundTint="@drawable/buttonbyme2"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/vector3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zz4"
+        android:text="Exercise"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zz5"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/transparent"
+        android:contentDescription="Button to go back"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zz9"
+        android:text="Workout Schedule"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="15dp" />
+
+    <LinearLayout
+        android:id="@+id/zz6"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:background="#F60606"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/zz7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/transparent"
+            android:text="STEP 1"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zz8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="Warm Up"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/zz10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="15 minutes"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zz11"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="220dp"
+        android:orientation="vertical"
+        android:background="#F60606"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/zz12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/transparent"
+            android:text="STEP 2"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zz13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="Basic Pushups"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/zz14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="20 minutes"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zz15"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:background="@color/semi_gray_color"
+        android:layout_height="160dp">
+
+        <TextView
+            android:id="@+id/zz16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/transparent"
+            android:text="STEP 2"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zz17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="Basic Pushups"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/zz18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="20 minutes"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zz19"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="220dp"
+        android:orientation="vertical"
+        android:background="@color/semi_gray_color"
+        android:layout_height="160dp">
+
+        <TextView
+            android:id="@+id/zz20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/transparent"
+            android:text="STEP 2"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zz21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="Basic Pushups"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/zz22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="20 minutes"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zz23"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="220dp"
+        android:orientation="vertical"
+        android:background="@color/semi_gray_color"
+        android:layout_height="160dp">
+
+        <TextView
+            android:id="@+id/zz24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/transparent"
+            android:text="STEP 2"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zz25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="Basic Pushups"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/zz26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="20 minutes"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/zz27"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:background="@color/semi_gray_color"
+        android:layout_height="160dp">
+
+        <TextView
+            android:id="@+id/zz28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/transparent"
+            android:text="STEP 2"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zz29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="Basic Pushups"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/zz30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:backgroundTint="@color/transparent"
+            android:text="20 minutes"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

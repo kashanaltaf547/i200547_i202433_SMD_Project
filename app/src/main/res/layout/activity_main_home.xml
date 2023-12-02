@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6_Home">
+
+
+    <ImageView
+        android:id="@+id/z1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-15dp"
+        android:src="@drawable/vector1"/>
+
+    <ImageView
+        android:id="@+id/z2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/vector2"
+        android:layout_alignParentBottom="true" />
+
+
+    <ImageView
+        android:id="@+id/z3"
+        android:layout_width="314dp"
+        android:layout_height="316dp"
+        android:layout_below="@id/z1"
+        android:layout_marginLeft="-45dp"
+        android:backgroundTint="@drawable/buttonbyme2"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/vector3" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/z4"
+        android:src = "@drawable/ellipse_2"
+        android:backgroundTint="@color/transparent"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/z5"
+        android:text="For You"
+        android:textColor="#F70A0A"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:layout_marginTop="300dp"/>
+
+    <LinearLayout
+        android:id="@+id/z6"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:background="@color/semi_gray_color"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/z7"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/image4"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:id="@+id/z8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/transparent"
+            android:text="Doctors"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/z9"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="80dp"
+        android:orientation="horizontal"
+        android:background="@color/semi_gray_color"
+        android:layout_alignLeft="@id/z5"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/z10"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/image4"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:id="@+id/z11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/transparent"
+            android:text="Doctors"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/z12"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:background="@color/semi_gray_color"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/z13"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/image4"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:id="@+id/z14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/transparent"
+            android:text="Doctors"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/z15"
+        android:layout_width="170dp"
+        android:weightSum="1"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="197dp"
+        android:orientation="horizontal"
+        android:layout_alignLeft="@id/z12"
+        android:background="@color/semi_gray_color"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/z16"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/image4"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:id="@+id/z17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/transparent"
+            android:text="Doctors"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

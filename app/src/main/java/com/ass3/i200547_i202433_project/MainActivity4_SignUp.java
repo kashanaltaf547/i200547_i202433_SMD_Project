@@ -21,7 +21,6 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity4_SignUp extends AppCompatActivity {
     EditText e1, e2, e3, e4;
-    Button b1, b2;
     ImageButton i1, i2;
     ImageView l1, l2, l3;
     ProgressBar progressBar;

@@ -13,6 +13,12 @@
         android:theme="@style/Theme.I200547_i202433_Project"
         tools:targetApi="26">
         <activity
+            android:name=".MainActivity7_Exercise"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity6_Home"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity5_Settings"
             android:exported="false" />
         <activity
