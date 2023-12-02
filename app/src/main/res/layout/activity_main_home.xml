@@ -38,9 +38,17 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/z4"
-        android:src = "@drawable/ellipse_2"
+        android:src = "@drawable/logo"
         android:backgroundTint="@color/transparent"
         android:layout_centerHorizontal="true" />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calender"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"/>
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -50,16 +58,16 @@
         android:textColor="#F70A0A"
         android:layout_centerHorizontal="true"
         android:textSize="40dp"
-        android:layout_marginTop="300dp"/>
+        android:layout_marginTop="330dp"/>
 
     <LinearLayout
         android:id="@+id/z6"
-        android:layout_width="170dp"
+        android:layout_width="200dp"
         android:weightSum="1"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="5dp"
         android:orientation="horizontal"
-        android:background="@color/semi_gray_color"
+        android:background="@color/white"
         android:layout_height="100dp">
 
         <ImageView
@@ -68,7 +76,7 @@
             android:id="@+id/z7"
             android:layout_marginLeft="6dp"
             android:layout_marginTop="25dp"
-            android:src="@drawable/image4"
+            android:src="@drawable/doctor"
             android:layout_weight="0.1"/>
 
         <Button
@@ -80,19 +88,20 @@
             android:backgroundTint="@color/transparent"
             android:text="Doctors"
             android:textColor="@color/black"
-            android:textSize="15sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
             tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/z9"
-        android:layout_width="170dp"
+        android:layout_width="200dp"
         android:weightSum="1"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="80dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="70dp"
         android:orientation="horizontal"
-        android:background="@color/semi_gray_color"
+        android:background="@color/white"
         android:layout_alignLeft="@id/z5"
         android:layout_height="100dp">
 
@@ -102,31 +111,31 @@
             android:id="@+id/z10"
             android:layout_marginLeft="6dp"
             android:layout_marginTop="25dp"
-            android:src="@drawable/image4"
+            android:src="@drawable/stethoscope"
             android:layout_weight="0.1"/>
 
         <Button
             android:id="@+id/z11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.9"
             android:layout_marginTop="25dp"
             android:backgroundTint="@color/transparent"
-            android:text="Doctors"
+            android:text="Appointment"
             android:textColor="@color/black"
-            android:textSize="15sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
             tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/z12"
-        android:layout_width="170dp"
+        android:layout_width="200dp"
         android:weightSum="1"
-        android:layout_marginTop="460dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="5dp"
         android:orientation="horizontal"
-        android:background="@color/semi_gray_color"
+        android:background="@color/white"
         android:layout_height="100dp">
 
         <ImageView
@@ -135,7 +144,7 @@
             android:id="@+id/z13"
             android:layout_marginLeft="6dp"
             android:layout_marginTop="25dp"
-            android:src="@drawable/image4"
+            android:src="@drawable/image5"
             android:layout_weight="0.1"/>
 
         <Button
@@ -143,24 +152,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="15dp"
             android:backgroundTint="@color/transparent"
-            android:text="Doctors"
+            android:text="Healthy Foods"
             android:textColor="@color/black"
-            android:textSize="15sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
             tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/z15"
-        android:layout_width="170dp"
+        android:layout_width="200dp"
         android:weightSum="1"
-        android:layout_marginTop="460dp"
-        android:layout_marginLeft="197dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="203dp"
         android:orientation="horizontal"
         android:layout_alignLeft="@id/z12"
-        android:background="@color/semi_gray_color"
+        android:background="@color/white"
         android:layout_height="100dp">
 
         <ImageView
@@ -169,22 +179,110 @@
             android:id="@+id/z16"
             android:layout_marginLeft="6dp"
             android:layout_marginTop="25dp"
-            android:src="@drawable/image4"
+            android:src="@drawable/exercise"
             android:layout_weight="0.1"/>
 
         <Button
             android:id="@+id/z17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.9"
             android:layout_marginTop="25dp"
             android:backgroundTint="@color/transparent"
-            android:text="Doctors"
+            android:textStyle="bold"
+            android:text="Exercise"
             android:textColor="@color/black"
-            android:textSize="15sp"
+            android:textSize="20sp"
             tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/z18"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/z19"
+            android:src="@drawable/frame"
+            android:layout_marginBottom="-12dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:id="@+id/z20">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/z21"
+            android:src="@drawable/image6"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Appointment Button"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/transparent"
+        android:id="@+id/z22">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/z23"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/homemulti"
+            android:backgroundTint="@color/transparent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/z24"
+            android:src="@drawable/pills"
+            android:layout_marginTop="7dp"
+            android:backgroundTint="@color/transparent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/z25">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/z26"
+            android:src="@drawable/graph"
+            android:backgroundTint="@color/transparent"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/z27"
+            android:src="@drawable/baseline_person_24"
+            android:backgroundTint="@color/transparent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
 
 </RelativeLayout>
