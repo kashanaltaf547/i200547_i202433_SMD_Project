@@ -48,14 +48,13 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/zz5"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="5dp"
-        android:background="@color/transparent"
-        android:contentDescription="Button to go back"
-        android:src="@drawable/img" />
+        android:id="@+id/zz41"
+        android:src="@drawable/settings"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/transparent"
+        tools:ignore="TouchTargetSizeCheck"
+        android:contentDescription="Settings"
+        android:layout_alignParentTop="true"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -121,7 +120,7 @@
         android:layout_marginTop="200dp"
         android:layout_marginLeft="220dp"
         android:orientation="vertical"
-        android:background="#F60606"
+        android:background="#87A5A6"
         android:layout_height="100dp">
 
         <TextView
@@ -166,21 +165,20 @@
         android:id="@+id/zz15"
         android:layout_width="170dp"
         android:weightSum="1"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="305dp"
         android:layout_marginLeft="20dp"
         android:orientation="vertical"
-        android:background="@color/semi_gray_color"
+        android:background="#CECECE"
         android:layout_height="160dp">
 
-        <TextView
+        <ImageView
             android:id="@+id/zz16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:src="@drawable/dumbbell"
             android:layout_weight="0.3"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
             android:backgroundTint="@color/transparent"
-            android:text="STEP 2"
+            android:layout_marginLeft="5dp"
             android:textColor="@color/white"
             android:textSize="15sp" />
 
@@ -190,9 +188,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:backgroundTint="@color/transparent"
-            android:text="Basic Pushups"
+            android:text="Shoulder Press"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15sp" />
 
 
@@ -202,9 +200,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:backgroundTint="@color/transparent"
-            android:text="20 minutes"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
+            android:text="Lift your way to stronger shoulders"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
             android:textSize="15sp" />
 
     </LinearLayout>
@@ -213,21 +211,20 @@
         android:id="@+id/zz19"
         android:layout_width="170dp"
         android:weightSum="1"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="305dp"
         android:layout_marginLeft="220dp"
         android:orientation="vertical"
-        android:background="@color/semi_gray_color"
+        android:background="#CECECE"
         android:layout_height="160dp">
 
-        <TextView
+        <ImageView
             android:id="@+id/zz20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_weight="0.3"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
             android:backgroundTint="@color/transparent"
-            android:text="STEP 2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/jogging"
             android:textColor="@color/white"
             android:textSize="15sp" />
 
@@ -237,9 +234,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:backgroundTint="@color/transparent"
-            android:text="Basic Pushups"
+            android:text="Jogging"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15sp" />
 
 
@@ -249,9 +246,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:backgroundTint="@color/transparent"
-            android:text="20 minutes"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
+            android:text="Lace up, step out, and let your heart race"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
             android:textSize="15sp" />
 
     </LinearLayout>
@@ -260,21 +257,20 @@
         android:id="@+id/zz23"
         android:layout_width="170dp"
         android:weightSum="1"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="470dp"
         android:layout_marginLeft="220dp"
         android:orientation="vertical"
-        android:background="@color/semi_gray_color"
+        android:background="#CECECE"
         android:layout_height="160dp">
 
-        <TextView
+        <ImageView
             android:id="@+id/zz24"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_weight="0.3"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/skipping"
             android:backgroundTint="@color/transparent"
-            android:text="STEP 2"
             android:textColor="@color/white"
             android:textSize="15sp" />
 
@@ -284,9 +280,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:backgroundTint="@color/transparent"
-            android:text="Basic Pushups"
+            android:text="Jumping"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15sp" />
 
 
@@ -296,9 +292,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:backgroundTint="@color/transparent"
-            android:text="20 minutes"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
+            android:text="Elevate your fitness with every jump you take."
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
             android:textSize="15sp" />
 
     </LinearLayout>
@@ -308,21 +304,20 @@
         android:id="@+id/zz27"
         android:layout_width="170dp"
         android:weightSum="1"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="470dp"
         android:layout_marginLeft="20dp"
         android:orientation="vertical"
-        android:background="@color/semi_gray_color"
+        android:background="#CECECE"
         android:layout_height="160dp">
 
-        <TextView
+        <ImageView
             android:id="@+id/zz28"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_weight="0.3"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="5dp"
             android:backgroundTint="@color/transparent"
-            android:text="STEP 2"
+            android:src="@drawable/cycling"
             android:textColor="@color/white"
             android:textSize="15sp" />
 
@@ -332,9 +327,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:backgroundTint="@color/transparent"
-            android:text="Basic Pushups"
+            android:text="Cycling"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15sp" />
 
 
@@ -344,10 +339,103 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:backgroundTint="@color/transparent"
-            android:text="20 minutes"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
+            android:text="Pedal your way to fitness and freedom."
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
             android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zz31"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/zz32"
+            android:src="@drawable/frame"
+            android:layout_marginBottom="-12dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="607dp"
+        android:id="@+id/zz33">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zz34"
+            android:src="@drawable/image6"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Appointment Button"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/transparent"
+        android:id="@+id/zz35">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/zz36"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/homemulti"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Home Button"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/zz37"
+            android:src="@drawable/pills"
+            android:layout_marginTop="7dp"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Medication"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/zz38">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zz39"
+            android:src="@drawable/graph"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Tracking"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zz40"
+            android:src="@drawable/baseline_person_24"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Profile"
+            android:layout_weight="1" />
 
     </LinearLayout>
 
