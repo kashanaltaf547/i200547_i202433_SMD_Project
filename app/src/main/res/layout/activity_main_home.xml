@@ -43,10 +43,10 @@
         android:layout_centerHorizontal="true" />
 
     <CalendarView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/calender"
-        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:id="@+id/calendarview"
+        android:layout_marginTop="140dp"
         android:layout_centerHorizontal="true"/>
 
 
@@ -245,6 +245,7 @@
             android:layout_marginTop="10dp"
             android:src="@drawable/homemulti"
             android:backgroundTint="@color/transparent"
+            android:contentDescription="Home Button"
             android:layout_weight="1" />
 
         <ImageButton
@@ -254,6 +255,7 @@
             android:src="@drawable/pills"
             android:layout_marginTop="7dp"
             android:backgroundTint="@color/transparent"
+            android:contentDescription="Medication"
             android:layout_weight="1" />
 
     </LinearLayout>
@@ -273,6 +275,7 @@
             android:id="@+id/z26"
             android:src="@drawable/graph"
             android:backgroundTint="@color/transparent"
+            android:contentDescription="Tracking"
             android:layout_weight="1"/>
 
         <ImageButton
@@ -281,6 +284,7 @@
             android:id="@+id/z27"
             android:src="@drawable/baseline_person_24"
             android:backgroundTint="@color/transparent"
+            android:contentDescription="Profile"
             android:layout_weight="1" />
 
     </LinearLayout>
