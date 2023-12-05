@@ -12,7 +12,7 @@ public class MainActivity5_Settings extends AppCompatActivity {
 
     LinearLayout linearLayout1, linearLayout2, linearLayout3, linearLayout4, linearLayout5, linearLayout6, linearLayout7, linearLayout8, linearLayout9;
 
-    Button b1;
+    Button b1, b2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class MainActivity5_Settings extends AppCompatActivity {
         setContentView(R.layout.activity_main_settings);
 
         b1 = (Button) findViewById(R.id.e40);
+        b2 = (Button) findViewById(R.id.e10);
 
         linearLayout1 = findViewById(R.id.e8);
         linearLayout2 = findViewById(R.id.e12);
@@ -46,9 +47,19 @@ public class MainActivity5_Settings extends AppCompatActivity {
             @Override
             public void onClick(View v) {Activity1();}
         });
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Activity2();
+            }
+        });
     }
     public void Activity1(){
         Intent intent = new Intent(this, MainActivity4_SignUp.class);
+        startActivity(intent);
+    }
+    public void Activity2() {
+        Intent intent = new Intent(this, MainActivity9_Profile.class);
         startActivity(intent);
     }
 }

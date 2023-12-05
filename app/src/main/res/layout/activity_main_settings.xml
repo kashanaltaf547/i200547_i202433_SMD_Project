@@ -103,7 +103,7 @@
                 android:layout_weight="0.2"
                 android:id="@+id/e10"
                 android:backgroundTint="@color/transparent"
-                android:text="Edit Profile"
+                android:text="Profile"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 tools:ignore="TouchTargetSizeCheck"/>

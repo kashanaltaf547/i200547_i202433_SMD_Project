@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.I200547_i202433_Project"
         tools:targetApi="31">
-       <activity
+        <activity
+            android:name=".MainActivity9_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity8_EditProfile"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity7_Exercise"
             android:exported="false" />
         <activity
