@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity10_Doctor">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Doctors"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#34989C9C"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="90dp"
+        android:weightSum="5"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/p1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/person1"
+            android:layout_weight="0.5"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/te1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Jack Jill"
+                android:textSize="26dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#8B8B8B"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/te2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 new message"
+                android:textSize="17dp"
+                android:textColor="#FF5722"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageButton
+                android:id="@+id/lll1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="35dp"
+                android:backgroundTint="@color/white"
+                android:contentDescription="Button to move forward"
+                android:src="@drawable/baseline_chevron_right_24"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="210dp"
+        android:background="#34989C9C" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_below="@+id/l2"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/person2"
+            android:layout_below="@id/l2"
+            android:layout_weight="0.5"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/te4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Amla"
+                android:textSize="26dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#8B8B8B"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/te5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No new messages"
+                android:textSize="17dp"
+                android:textColor="#B7B7B7"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageButton
+                android:id="@+id/lll2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="35dp"
+                android:backgroundTint="@color/white"
+                android:contentDescription="Button to move forward"
+                android:src="@drawable/baseline_chevron_right_24"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="330dp"
+        android:background="#34989C9C" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_below="@+id/l3"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/p3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/person3"
+            android:layout_below="@id/l3"
+            android:layout_weight="0.5"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/te6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. O' Boyle J."
+                android:textSize="26dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#8B8B8B"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/te7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No new messages"
+                android:textSize="17dp"
+                android:textColor="#B7B7B7"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageButton
+                android:id="@+id/lll3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="35dp"
+                android:backgroundTint="@color/white"
+                android:contentDescription="Button to move forward"
+                android:src="@drawable/baseline_chevron_right_24"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="450dp"
+        android:background="#34989C9C" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/z18"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/z19"
+            android:src="@drawable/frame"
+            android:layout_marginBottom="-12dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:id="@+id/z20">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/z21"
+            android:src="@drawable/image6"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Appointment Button"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/transparent"
+        android:id="@+id/z22">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/z23"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/homemulti"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Home Button"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/z24"
+            android:src="@drawable/pills"
+            android:layout_marginTop="7dp"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Medication"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/z25">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/z26"
+            android:src="@drawable/graph"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Tracking"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/z27"
+            android:src="@drawable/baseline_person_24"
+            android:backgroundTint="@color/transparent"
+            android:contentDescription="Profile"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity11_Messaging">
+
+    <LinearLayout
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@color/white">
+
+        <ImageButton
+            android:id="@+id/image"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="13dp"
+            android:backgroundTint="@color/white"
+            android:layout_weight="0.15"
+            android:contentDescription="Arrow to go back"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Dr. Jack Jill"
+            android:textStyle="bold"
+            android:textSize="32dp"
+            android:textColor="#8B8B8B"
+            android:layout_marginTop="15dp" />
+
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="17dp"
+            android:layout_weight="0.15"
+            android:src="@drawable/phone"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Making calls"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#34989C9C" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/white"
+        android:layout_marginTop="150dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/person1"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="This is a sample message"
+            android:background="#87A5A6"
+            android:textSize="20dp"
+            android:padding="11dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="18:56"
+            android:textColor="#98989C9C"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="210dp"
+        android:weightSum="2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="18:56"
+            android:textColor="#98989C9C"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="This is a sample message"
+            android:background="#F70A0A"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:padding="11dp"
+            android:layout_marginRight="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#34989C9C" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/white"
+        android:layout_marginTop="270dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/person1"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="This is a sample message"
+            android:background="#87A5A6"
+            android:textSize="20dp"
+            android:padding="11dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="18:56"
+            android:textColor="#98989C9C"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#34989C9C" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/white"
+        android:layout_marginTop="330dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/person1"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="This is a sample message"
+            android:background="#87A5A6"
+            android:textSize="20dp"
+            android:padding="11dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="18:56"
+            android:textColor="#98989C9C"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#34989C9C" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="390dp"
+        android:weightSum="2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="18:56"
+            android:textColor="#98989C9C"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="This is a sample message"
+            android:background="#F70A0A"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:padding="11dp"
+            android:layout_marginRight="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="450dp"
+        android:weightSum="2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="18:56"
+            android:textColor="#98989C9C"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="This is a sample message"
+            android:background="#F70A0A"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:padding="11dp"
+            android:layout_marginRight="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/white"
+        android:layout_marginTop="510dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/person1"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="..."
+            android:background="#87A5A6"
+            android:textSize="20dp"
+            android:padding="11dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="18:56"
+            android:textColor="#98989C9C"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="585dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#34989C9C" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginTop="595dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Write a reply..."
+            android:textColor="#8B8B8B"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginTop="655dp">
+
+        <ImageButton
+            android:id="@+id/cam"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/camera_1"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            tools:ignore="TouchTargetSizeCheck"
+            android:contentDescription="Camera"/>
+
+        <ImageButton
+            android:id="@+id/phot"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/landscape_2"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:layout_weight="1"
+            tools:ignore="TouchTargetSizeCheck"
+            android:contentDescription="Photos"/>
+
+        <ImageButton
+            android:id="@+id/file"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/new_file"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            tools:ignore="TouchTargetSizeCheck"
+            android:contentDescription="Documents"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/send"
+            android:textColor="#F70A0A"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:backgroundTint="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
